@@ -6,6 +6,8 @@ declare module 'commenting' {
   }
   interface Commenting {
     (text: string | string[], options: {
+      keepIndent?: boolean
+    } & {
       style: Style
     } | {
       extension: string
