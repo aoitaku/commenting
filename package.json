@@ -31,5 +31,6 @@
     "mocha": "2.2.x",
     "pre-commit": "1.0.x"
   },
+  "types": "index.d.ts",
   "pre-commit": ["coverage", "100%"]
 }
